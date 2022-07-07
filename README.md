@@ -1,34 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 프로젝트의 목적
 
-## Getting Started
+1. 무한 스크롤 구현 연습
 
-First, run the development server:
+2. Next.js 맛보기
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 아직 미구현 된 부분
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+각 포켓몬 카드를 클릭해 상세 정보에 들어갔다 메인 페이지로 돌아오면 이전 스크롤 위치가 유지되지 않음.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+localStorage에 scrollY를 저장했다가 돌아오는 방식을 사용하려고 했는데 어째서인지 window.scrollTo(x, y)기 작동하지 않음.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+개발자 도구의 console 창에 직접 입력해보면 이동하는데 코드 상에서는 작동하지 않음.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+이유를 찾고 있는 중
 
-## Learn More
+<br>
 
-To learn more about Next.js, take a look at the following resources:
+**시작하는 법**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> npm run dev

@@ -1,0 +1,24 @@
+.idBox {
+  display: flex;
+  margin: 5px 0;
+  font-size: 14px;
+  opacity: 0.4;
+}
+.nameBox {
+  display: flex;
+  margin: 5px 0;
+}
+.textBox {
+  margin-right: 10px;
+}
+
+.poketmonCard {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  margin: 5px auto;
+  box-shadow: 0.4rem 0.5rem 0.7rem rgba(20, 30, 60, 0.125);
+  min-height: 7rem;
+}

@@ -1,0 +1,38 @@
+.poketmonDetailContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+}
+.sprite img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.poketmonName {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.infoWrapper {
+  background: #f0f6fc;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 50%;
+  padding: 20px 0;
+}
+.infoBox {
+  width: 300px;
+  margin: 10px auto;
+}
+.infoTitle {
+  font-weight: bold;
+  opacity: 0.45;
+  padding-bottom: 5px;
+}
+.infoText {
+  font-size: 20px;
+}
